@@ -8,5 +8,6 @@ var updateHtml = function(html) {
             hljs.highlightBlock(codes[i]);
         }
     }
+    content.setLog(html);
 }
 

@@ -40,6 +40,13 @@ public:
     static const QString c_markdownitAnchorExtraFile;
     static const QString c_markdownitTaskListExtraFile;
 
+    // Mermaid
+    static const QString c_mermaidJsFile;
+    static const QString c_mermaidApiJsFile;
+    static const QString c_mermaidCssFile;
+    static const QString c_mermaidDarkCssFile;
+    static const QString c_mermaidForestCssFile;
+
     inline const QVector<QPair<QString, QString> > &getPalette() const;
     void initPalette(QPalette palette);
     QString getColorFromPalette(const QString &p_name) const;
